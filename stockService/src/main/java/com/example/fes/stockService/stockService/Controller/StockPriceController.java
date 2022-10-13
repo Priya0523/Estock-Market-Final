@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1.0/market/stock")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:4200/")
 public class StockPriceController {
 	
 	Logger logger = LoggerFactory.getLogger(StockPriceController.class); 
